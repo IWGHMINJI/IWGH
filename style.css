@@ -1,0 +1,33 @@
+/*css 파일(주석)*/
+  @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Oswald:wght@500&display=swap');
+
+h1{color:aqua;
+font-family:'Oswald', sans-serif;}
+h3{color:blueviolet;
+font-family: 'Song Myung', serif;}
+
+.main_text{
+  color:rgb(1, 22, 22);
+  font-size:24px;
+}
+#special{
+  color:rgb(179, 47, 184);
+  font-size: 24px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto;
+  border: 1px solid gray;
+}
+.목차{
+  border: 1px solid gray;
+  padding-left: 50px;
+}
+.내용{
+  padding-left: 50px;
+}
+#emphaszie{
+  color:crimson;
+  font-size: 30px;
+}
